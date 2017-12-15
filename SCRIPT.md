@@ -105,7 +105,7 @@ $ npm install ipfs —save
 In the app, we now need to create an IPFS node:
 
 ```js
-xonst IPFS = require('ipfs')
+const IPFS = require('ipfs')
 const ipfs = new IPFS({
   repo: repo(),
   EXPERIMENTAL: {
